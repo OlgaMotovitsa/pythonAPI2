@@ -21,7 +21,8 @@ def check_word(word):
     client = Client(wsdl=url, settings=settings)
     return client.service.checkText(word)[0]['s']
 
-
+# Moto@mail.ru
+# 14c1b84f87
 
 
 
