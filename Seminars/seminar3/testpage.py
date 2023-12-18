@@ -27,20 +27,6 @@ class TestSearchLocators:
     LOCATOR_POST = (By.XPATH, """//*[@id="app"]/main/div/div[1]/h1""")
 
 
-    # # локатор кнопки Contact
-    # LOCATOR_BTN_CONTACT = (By.XPATH, """//*[@id="app"]/main/nav/ul/li[2]/a""")
-    # # локатор проверки открытие формы Contact
-    # LOCATOR_RESULT_SWITCHIHG_TO_FORM = (By.XPATH, """//*[@id="app"]/main/div/div/h1""")
-    # # локатор поля your name
-    # LOCATOR_FIELD_YOUR_NAME = (By.XPATH, """//*[@id="contact"]/div[1]/label/input""")
-    # # локатор поля your email
-    # LOCATOR_FIELD_YOUR_EMAIL = (By.XPATH, """//*[@id="contact"]/div[2]/label/input""")
-    # # локатор поля content в форме Contact
-    # LOCATOR_FIELD_CONTENT_TO_FORM = (By.XPATH, """//*[@id="contact"]/div[3]/label/span/textarea""")
-    # # локатор кнопки contact us
-    # LOCATOR_BTN_CONTACT_US = (By.XPATH, """//*[@id="contact"]/div[4]/button""")
-
-
 
 # класс с методами (действиями с локаторами из файла test_1)
 
@@ -109,48 +95,5 @@ class OperationsHelper(BasePage):
         logging.info(f"We find text {text} in error field {TestSearchLocators.LOCATOR_POST[1]}")
         return text
 
-    # #  функция нажатия кнопки Contact
-    # def click_сontact_button(self):
-    #     logging.info(f"Click сontact button")
-    #     self.find_element(TestSearchLocators.LOCATOR_BTN_CONTACT).click()
 
-    # #     функция проверки открытия формы- наличие слов Contact us!
-    # def result_switcying_to_form_text(self):
-    #     result_field = self.find_element(TestSearchLocators.LOCATOR_RESULT_SWITCHIHG_TO_FORM, time=2)
-    #     text = result_field.text
-    #     logging.info(f"We find text {text} in error field {TestSearchLocators.LOCATOR_RESULT_SWITCHIHG_TO_FORM[1]}")
-    #     return text
-    #
-    # # функция ввода имени в поле your name
-    # def enter_name(self, word):
-    #     logging.info(f"Send {word} to element {TestSearchLocators.LOCATOR_FIELD_YOUR_NAME[1]}")
-    #     name_field = self.find_element(TestSearchLocators.LOCATOR_FIELD_YOUR_NAME)
-    #     name_field.clear()
-    #     name_field.send_keys(word)
-    #
-    # #  функция ввода email в поле your email
-    # def enter_email(self, word):
-    #     logging.info(f"Send {word} to element {TestSearchLocators.LOCATOR_FIELD_YOUR_EMAIL[1]}")
-    #     name_field = self.find_element(TestSearchLocators.LOCATOR_FIELD_YOUR_EMAIL)
-    #     name_field.clear()
-    #     name_field.send_keys(word)
-    #
-    # #  функция ввода содержимого в поле content
-    # def enter_content_to_form(self, word):
-    #     logging.info(f"Send {word} to element {TestSearchLocators.LOCATOR_FIELD_CONTENT_TO_FORM[1]}")
-    #     content_field = self.find_element(TestSearchLocators.LOCATOR_FIELD_CONTENT_TO_FORM)
-    #     content_field.clear()
-    #     content_field.send_keys(word)
-    #
-    # # функция нажатия кнопки contact us
-    # def click_contact_us_button(self):
-    #     logging.info(f"Click login button")
-    #     self.find_element(TestSearchLocators.LOCATOR_BTN_CONTACT_US).click()
-    #
-    # #  функция вывода  текста в alert -  Form successfully submitted
-    # def get_alert_text(self):
-    #     alert_field = self.driver.switch_to.alert
-    #     text = alert_field.text
-    #     logging.info(f"We find text {text} in alert")
-    #     return text
 
