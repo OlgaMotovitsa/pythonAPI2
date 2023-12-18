@@ -1,0 +1,26 @@
+2023-12-18 20:10:34 INFO ====== WebDriver manager ======
+2023-12-18 20:10:35 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:10:35 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:10:35 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 20:10:36 INFO Test1 starting
+2023-12-18 20:10:44 INFO ====== WebDriver manager ======
+2023-12-18 20:10:45 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:10:45 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:10:45 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 20:10:46 INFO Test2 starting
+2023-12-18 20:10:54 INFO ====== WebDriver manager ======
+2023-12-18 20:10:55 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:10:55 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:10:55 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 20:10:56 INFO Test3 starting
+2023-12-18 20:11:08 INFO ====== WebDriver manager ======
+2023-12-18 20:11:08 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:11:08 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:11:09 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 20:11:10 INFO Test4 starting
+2023-12-18 20:11:19 INFO ====== WebDriver manager ======
+2023-12-18 20:11:20 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:11:20 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 20:11:21 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 20:11:22 INFO Test5 starting
+2023-12-18 20:11:27 INFO We find text Form successfully submitted in alert
