@@ -1,0 +1,17 @@
+2023-12-18 21:58:50 INFO ====== WebDriver manager ======
+2023-12-18 21:58:51 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 21:58:51 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 21:58:52 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 21:58:53 INFO Test1 starting
+2023-12-18 21:58:54 INFO Test1 finished
+2023-12-18 21:58:54 INFO Test2 starting
+2023-12-18 21:58:56 INFO Test2 finished
+2023-12-18 21:58:56 INFO Test3 starting
+2023-12-18 21:58:59 INFO Test3 finished
+2023-12-18 21:58:59 INFO Test4 starting
+2023-12-18 21:59:01 INFO Test4 finished
+2023-12-18 21:59:01 INFO Test5 starting
+2023-12-18 21:59:04 INFO We find text Form successfully submitted in alert
+2023-12-18 21:59:04 INFO Test5 finished
+2023-12-18 21:59:05 INFO Test6 API starting
+2023-12-18 21:59:06 INFO Test6 finished

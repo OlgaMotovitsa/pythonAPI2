@@ -1,0 +1,23 @@
+2023-12-18 21:13:53 INFO ====== WebDriver manager ======
+2023-12-18 21:13:53 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 21:13:53 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 21:13:54 INFO Driver [C:\Users\Оля\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 21:13:55 INFO Test1 starting
+2023-12-18 21:13:56 INFO Test1 finished
+2023-12-18 21:13:56 INFO Test2 starting
+2023-12-18 21:13:58 INFO Test2 finished
+2023-12-18 21:13:58 INFO Test3 starting
+2023-12-18 21:14:01 INFO Test3 finished
+2023-12-18 21:14:01 INFO Test4 starting
+2023-12-18 21:14:03 INFO Test4 finished
+2023-12-18 21:14:03 INFO Test5 starting
+2023-12-18 21:14:07 INFO We find text Form successfully submitted in alert
+2023-12-18 21:14:07 INFO Test5 finished
+2023-12-18 21:14:07 INFO Test6 API starting
+2023-12-18 21:14:09 INFO Test6 API starting
+2023-12-18 21:14:09 ERROR API request failed
+Traceback (most recent call last):
+  File "C:\Users\Оля\PycharmProjects\pythonAPI2\Homeworks\homework4\test_2.py", line 20, in test_check_post_title
+    assert data["title"] in post_titles
+AssertionError: assert 'Homework3' in ['uytu tyu ty', 'I want drink!', 'Test title', 'Test#']
+2023-12-18 21:14:09 ERROR API request failed
